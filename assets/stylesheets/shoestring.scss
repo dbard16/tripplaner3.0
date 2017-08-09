@@ -13,3 +13,39 @@ body {
   }
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+
+.row {
+  clear: both;
+
+}
+
+@for $i from 1 through 12 {
+	.col-lg-#{$i} {
+		width: (round(100/(12/$i)))+%;
+		display: inline-block;
+		text-align: center;
+	} 
+}
+.col-lg-4 {
+		width: 30%;
+		display: inline-block; 
+		margin: 5px;
+		vertical-align: text-top;
+	} 
+.img-responsive{
+	width: 100%;
+}
+.section-colored p{
+	font-size: 12px;
+	padding:50px;
+}
+hr{
+	margin-left:40px;
+	margin-right:40px;
+	border-color: lightgray;
+}

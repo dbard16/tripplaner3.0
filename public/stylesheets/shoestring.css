@@ -364,7 +364,7 @@ body {
 /* Page Sections */
 .section,
 .section-colored {
-  padding: 50px 0; }
+  /*padding: 50px 0;*/ }
 
 .section-colored {
   background-color: #e1e1e1;
@@ -477,3 +477,89 @@ footer {
 
 body h1 {
   color: white; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  clear: both; }
+
+.row {
+  clear: both; }
+
+.col-lg-1 {
+  width: 8%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-2 {
+  width: 17%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-3 {
+  width: 25%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-4 {
+  width: 33%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-5 {
+  width: 42%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-6 {
+  width: 50%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-7 {
+  width: 58%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-8 {
+  width: 67%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-9 {
+  width: 75%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-10 {
+  width: 83%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-11 {
+  width: 92%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-12 {
+  width: 100%;
+  display: inline-block;
+  text-align: center; }
+
+.col-lg-4 {
+  width: 30%;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: text-top; }
+
+.img-responsive {
+  width: 100%; }
+
+.section-colored p {
+  font-size: 12px;
+  padding: 50px; }
+
+hr {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-color: lightgray; }
